@@ -1,0 +1,11 @@
+CREATE TABLE EMP (
+  empno NUMBER(10) NOT NULL,
+  ename VARCHAR2(20),
+  sal NUMBER(10),
+  dob DATE,
+  PRIMARY KEY (empno)
+);
+
+CREATE SEQUENCE emp_sequence START WITH 1;
+
+COMMIT;
